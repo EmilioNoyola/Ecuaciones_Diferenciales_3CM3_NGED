@@ -45,5 +45,5 @@ portable = f'''<!doctype html>
 </body>
 </html>
 '''
-(DIST / '3CM3_NGED_( G04_Ecuaciones_de_Segundo_Orden )_ED.html').write_text(portable, encoding='utf-8')
-print('Listo: 3CM3_NGED_( G04_Ecuaciones_de_Segundo_Orden )_ED.html', len(portable)//1024, 'KB')
+(DIST / 'g04_ecuaciones_de_segundo_orden.html').write_text(portable, encoding='utf-8')
+print('Listo: g04_ecuaciones_de_segundo_orden.html', len(portable)//1024, 'KB')

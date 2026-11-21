@@ -8,12 +8,12 @@ Alumnos: Moreno Miranda Alexander · Noyola Gómez Emilio Damian
 
 ## Cómo abrirlo
 
-Doble clic en **`3CM3_NGED_( G04_Ecuaciones_de_Segundo_Orden )_ED.html`**. Se abre en cualquier navegador (Chrome, Edge, Firefox, celular).
+Doble clic en **`g04_ecuaciones_de_segundo_orden.html`**. Se abre en cualquier navegador (Chrome, Edge, Firefox, celular).
 **No necesita internet ni instalar nada**: las fórmulas (KaTeX) y las letras van dentro del mismo archivo.
 Se puede mandar por WhatsApp, correo o USB y funciona igual.
 
 Truco para la presentación: si abres el archivo directo, la dirección guarda la ecuación
-(`3CM3_NGED_( G04_Ecuaciones_de_Segundo_Orden )_ED.html#a=1&b=-3&c=2`), así que puedes dejar marcadores con ejemplos ya cargados.
+(`g04_ecuaciones_de_segundo_orden.html#a=1&b=-3&c=2`), así que puedes dejar marcadores con ejemplos ya cargados.
 
 ## Qué hace
 
@@ -91,7 +91,7 @@ leer a, b, c  →  Motor.resolver()  →  construirPasos() (LaTeX)  →  KaTeX d
 ## Si cambian algo
 
 Editen los archivos de `src/` (se puede abrir `src/index.html` directo para probar) y luego, para
-volver a generar el archivo único `3CM3_NGED_( G04_Ecuaciones_de_Segundo_Orden )_ED.html`, corran:
+volver a generar el archivo único `g04_ecuaciones_de_segundo_orden.html`, corran:
 
 ```
 python build.py
